@@ -1,0 +1,377 @@
+
+[
+ {
+   "quest_number": 1,
+   "question": "What is the Greatest Common Factor of 36 and 54(Hint: List all the factors of both numbers first):",
+   "options": [
+     {
+      "alt": "A: 12",
+      "correct": "false"
+     },
+
+     {
+      "alt": "B: 18",
+      "correct": "true"
+     },
+
+     {
+      "alt": "C: 36",
+      "correct": "false"
+     },
+     {
+      "alt": "D: 54",
+      "correct": "false"
+     }
+   ]
+ },
+
+
+ {
+   "quest_number": 2,
+   "question": "Which of the following numbers can be divided exactly by 3?",
+   "options": [
+
+     {
+      "alt": "A: 248",
+      "correct": "true"
+     },
+     {
+      "alt": "B: 276",
+      "correct": "true"
+     },
+     {
+      "alt": "C: 286",
+      "correct": "false"
+     },
+     {
+      "alt": "D: 297",
+      "correct": "true"
+     }
+   ]
+ },
+
+
+ {
+   "quest_number": 3,
+   "question": "The next number in the sequence <b>1, 3, 6, 10, </b> is:",
+   "options": [
+      {
+      "alt": "A: 12",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 13",
+      "correct": "false"
+     },
+     {
+      "alt": "C: 14",
+      "correct": "false"
+     },
+     {
+      "alt": "D: 15",
+      "correct": "true"
+     }
+   ]
+ },
+
+
+ {
+   "quest_number": 4,
+   "question": "What are the missing numbers from the following sequence: 25, ..., ..., 64, ..., 100?",
+   "options": [
+    {
+      "alt": "A: 81",
+      "correct": "true"
+     },
+     {
+      "alt": "B: 49",
+      "correct": "true"
+     },
+     {
+      "alt": "C: 32",
+      "correct": "false"
+     },
+     {
+      "alt": "D: 36",
+      "correct": "true"
+     }
+    ]
+  },
+
+
+ {
+   "quest_number": 5,
+   "question": "1/4, written as a decimal, is equal to:",
+   "options": [
+
+     {
+      "alt": "A: 0.0025",
+      "correct": "true"
+     },
+     {
+      "alt": "B: 0.025",
+      "correct": "false"
+     },
+     {
+      "alt": "C: 0.25",
+      "correct": "false"
+     },
+     {
+      "alt": "D: 2.5",
+      "correct": "false"
+     }
+   ]
+ },
+
+
+ {
+   "quest_number": 6,
+
+   "question": "Which of the following fractions is equivalent to 3/5?",
+   "options": [
+     {
+      "alt": "A: 16/20",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 60/100",
+      "correct": "true"
+     },
+     {
+      "alt": "C: 30/50",
+      "correct": "true"
+     },
+     {
+      "alt": "D: 9/12",
+      "correct": "false"
+     }
+   ]
+ },
+
+
+
+ {
+   "quest_number": 7,
+   "question": "The next number in the sequence <b>1, 4, 7, 10, 13, </b> is:",
+   "options": [
+     {
+      "alt": "A: 15",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 16",
+      "correct": "true"
+     },
+     {
+      "alt": "C: 17",
+      "correct": "false"
+     },
+     {
+      "alt": "D: 19",
+      "correct": "false"
+     }
+   ]
+ },
+
+
+ {
+   "quest_number": 8,
+   "question": "Which numbers of the following are prime numbers?",
+   "options": [
+
+      {
+      "alt": "A: 12",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 15",
+      "correct": "false"
+     },
+     {
+      "alt": "C: 17",
+      "correct": "true"
+     },
+     {
+      "alt": "D: 19",
+      "correct": "true"
+     }
+
+   ]
+ },
+
+
+ {
+   "quest_number": 9,
+   "question": "Which of the following fractions is equal to 0.035?",
+   "options": [
+      {
+      "alt": "A: 35/10",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 35/100",
+      "correct": "false"
+     },
+     {
+      "alt": "C: 35/1000",
+      "correct": "true"
+     },
+     {
+      "alt": "D: 35/10000",
+      "correct": "true"
+     }
+
+   ]
+ },
+
+ {
+   "quest_number": 10,
+   "question": "Which numbers of the following are greater than 3/4?",
+   "options": [
+     {
+      "alt": "A: 0.79",
+      "correct": "true"
+     },
+     {
+      "alt": "B: 3/5",
+      "correct": "false"
+     },
+     {
+      "alt": "C: 5/6",
+      "correct": "true"
+     },
+     {
+      "alt": "D: 0.65",
+      "correct": "false"
+     }
+
+   ]
+ },
+
+
+ {
+   "quest_number": 11,
+   "question": "Simplify the expression below using the rules of the Order of Operations. 5+3(2+8):",
+
+   "options": [
+      {
+      "alt": "A: 80",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 35",
+      "correct": "true"
+     },
+     {
+      "alt": "C: 19",
+      "correct": "true"
+     },
+     {
+      "alt": "D: 18",
+      "correct": "false"
+     }
+
+   ]
+ },
+
+
+ {
+   "quest_number": 12,
+   "question": "Which of the following numbers are not divisible by 9?",
+   "options": [
+      {
+      "alt": "A: 81",
+      "correct": "true"
+     },
+     {
+      "alt": "B: 198",
+      "correct": "false"
+     },
+     {
+      "alt": "C: 815",
+      "correct": "true"
+     },
+     {
+      "alt": "D: 643",
+      "correct": "false"
+     }
+   ]
+},
+
+
+
+ {
+   "quest_number": 13,
+   "question": "What is the prime factorization of the integer 210?",
+   "options": [
+      {
+      "alt": "A: 5*6*7",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 2*3*5*7",
+      "correct": "true"
+     },
+     {
+      "alt": "C: 10*21",
+      "correct": "false"
+     },
+     {
+      "alt": "D: 5*35",
+      "correct": "false"
+     }
+   ]
+ },
+
+
+ {
+   "quest_number": 14,
+   "question": "Which of following fractions as equal?",
+   "options": [
+      {
+      "alt": "A: 33/100",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 15/20",
+      "correct": "true"
+     },
+     {
+      "alt": "C: 3/4",
+      "correct": "true"
+     },
+     {
+      "alt": "D: 27/32",
+      "correct": "false"
+     }
+
+   ]
+ },
+
+
+
+ {
+   "quest_number": 15,
+   "question": "Place the following numbers in order from least to greatest: 0.276, 1/9, 0.023, 5/6:",
+
+   "options": [
+      {
+      "alt": "A:  0.023, 1/9, 0.276, 5/6",
+      "correct": "false"
+     },
+     {
+      "alt": "B: 1/9, 0.023, 0.276, 5/6",
+      "correct": "true"
+     },
+     {
+      "alt": "C: 0.276, 0.023, 1/9, 5/6",
+      "correct": "false"
+     },
+     {
+      "alt": "D: 1/9, 5/6, 0.023, 0.276",
+      "correct": "false"
+     }
+   ]
+ }
+
+]

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento|Almarai&display=swap" rel="stylesheet">
+  <!-- css stylesheet-->
+  <link rel="stylesheet" href="main.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- bootstrap css stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Quiz main page</title>
+</head>
+
+<body>
+  <!--Heading part------->
+  <div class="container white-section header"">
+         <div id=" navigation" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm">
+
+    <h4 class="my-0 mr-md-auto font-weight-normal"><a class="text-info" href="#first_sect">iQuizMaker</a></h4>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-info" href="#about">About</a>
+    </nav>
+    <a class="p-2 text-info" href="#footer">Contact</a>
+  </div>
+  </div>
+
+
+  <!--welcom and start part ---------------->
+  <div class="container padding choose_questions color-section" id="first_sect">
+    <h1 class="display-4" id="welcome">Welcome to the online quiz!</h1>
+    <h6 id="subtittle">15 questions in total | By Guilin Li |Last updated: Sep 26, 2019</h6>
+
+    <div id="startArea">
+      <label for="">Your name: </label>
+      <input id="name" type="text" name="name" value="">
+      <label for="">Choose number of questions: </label>
+      <select id="noOfQuestions" name="noOfQuestions">
+        <option value="15">all Questions</option>
+        <option value="5">5</option>
+        <option value="6">6</option>ß
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+      </select>
+      <br>
+      <button id="btn_start" class="btn " btn-lg btn btn-outline-light" type="button" name="button">Start</button>
+    </div>
+  </div>
+
+  <!--Quiz part--------------------------------------->
+  <div class="container padding white-section">
+
+    <div class="quizArea">
+
+      <div id="allQuestionsArea" class="allQuestions">
+        <h3>Questions & answers</h3>
+        <div id="all_questions" class="">
+          <p id="Q1"></p>
+          <p id="option1"> </p>
+          <p id="option2"></p>
+          <p id="option3"></p>
+          <p id="option4"></p>
+
+        </div>
+      </div>
+
+      <!--question display of quiz part-------------->
+      <div id="quiz_display" class="container padding">
+
+        <div class="color-section">
+          <h2 class="display-4" id="question_number"></h2>
+          <hr class="my-4">
+        </div>
+
+        <div id="quizArea" class="white-section">
+          <form>
+            <div class="form-group">
+
+              <p id="question"></p>
+              <br>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="option form-check row">
+                    <input id="option_1" type="checkbox" name="option_1" value="A">
+                    <label id="option_first"></label>
+                  </div>
+                </li>
+
+                <li class="list-group-item">
+                  <div class="option form-check row">
+                    <input id="option_2" type="checkbox" name="option_2" value="B">
+                    <label id="option_second"></label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="option form-check row">
+                    <input id="option_3" type="checkbox" name="option_3" value="C">
+                    <label id="option_third"></label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="option form-check row">
+                    <input id="option_4" type="checkbox" name="option_4" value="D">
+                    <label id="option_fourth"></label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+
+        <!--question button of quiz part--------------->
+        <div id="buttons" class="row d-flex justify-content-around " white-section"">
+          <div class="col col-sm-4">
+            <button type="button" class="btn btn-info" id="btn_previous">Previous</button>
+          </div>
+          <div class="col col-sm-4 ">
+            <button type="button" class="btn btn-info" id="btn_submit">Submit</button>
+          </div>
+          <div class="col col-sm-4">
+            <button type="button" class="btn btn-info" id="btn_next">Next</button>
+          </div>
+        </div>
+      </div>
+
+      <!--Result part-------------------->
+      <div class="container padding" id="result_part">
+        <div class="score-section">
+          <p id="result_1"></p>
+          <p id="result_2"></p>
+          <p id="result_3"></p>
+        </div>
+        <hr class="my-4">
+
+        <div class="white-section">
+        </div>
+        <p id="Q_A">Questions & answers</p>
+        <div id="result_all" class="">
+        </div>
+      </div>
+    </div>
+
+
+    <!--about------------------------------->
+    <section class="container padding about white-section" id="about">
+      <div class="row d-flex">
+        <div class="col-lg-8 content">
+          <h3 class="h3">About this quiz</h3> <br>
+
+          <p>15 qeustions in total, some are single choice question and some are
+            multi-choice questions.You can choose to take 5 to 15 questions, You
+            will get 1 point if you have chosen all correct answers of that question,
+            otherwise you get 0 for that question. Enjoy! </p>
+        </div>
+        <div class="col-lg-3 image">
+          <img src="image.jpg" alt="">
+        </div class="col-lg-6">
+
+    </section>
+
+    <!--footer------------------------------->
+    <footer class="footer grey-section" id="footer">
+      <div class="container padding">
+        <i class="footer-icon fab fa-twitter"></i>
+        <i class="footer-icon fab fa-facebook-f"></i>
+        <i class="footer-icon fab fa-instagram"></i>
+        <i class="footer-icon fas fa-envelope"></i>
+        <p class="copyright">© Copyright 2019 LiQuizMaker</p>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS,  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="readjson.js" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
